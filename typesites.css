@@ -1,0 +1,73 @@
+* {
+	/*padding: 0;*/
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #fff;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.wrapper {
+	max-width: 1340px;
+	margin: 0 auto;
+	/* outline: 1px solid rgba(123, 255, 0, 0.747); */
+	padding: 10px 40px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block_2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.block_2 {
+	font-family: 'PT Sans Caption', sans-serif;
+	height: 100vh;
+	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.544)), url(./img/2_block/img-block2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.block2_main_text {
+	margin: 0 auto;
+	font-family: 'PT Sans Caption', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.block2_additional_text {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.landing-description, .website-description, .shop-description {
+	border: 1px solid #fff;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+.landing-description:hover, .website-description:hover, .shop-description:hover {
+	background: rgba(255, 217, 0, 0.5);
+	font-size: 16px;
+	transition: 0.3s;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(244, 67, 54, 0.4);*/
+}
+
+
+.icon-block21 {
+	position: absolute;
+	transform: translate(129px, -44px);
+}
+.icon-block22 {
+	position: absolute;
+    transform: translate(132px, -44px);
+}
+.icon-block23 {
+	position: absolute;
+    transform: translate(129px, -44px);
+}
