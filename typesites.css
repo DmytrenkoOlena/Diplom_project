@@ -3,27 +3,35 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
-	color: #fff;
+	color: black;
 	font-family: sans-serif;
 	overflow: hidden;
 }
+
 .wrapper {
 	max-width: 1340px;
 	margin: 0 auto;
-	/* outline: 1px solid rgba(123, 255, 0, 0.747); */
 	padding: 10px 40px;
 }
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block_2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.all-items-wrap {
+	display: flex;
+	align-items: flex-start;
+	text-align: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<< Block_2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .block_2 {
 	font-family: 'PT Sans Caption', sans-serif;
 	height: 100vh;
-	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.544)), url(./img/2_block/img-block2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.544)), url(./img/2_block/img-block2.jpg);*/
+	/*  background-repeat: no-repeat;
+	background-size: cover;*/
 	text-align: center;
+	background-color: #000000e0;
 }
 
 .block2_main_text {
@@ -31,7 +39,9 @@ body {
 	font-family: 'PT Sans Caption', sans-serif;
 	margin-top: 30px;
 	margin-bottom: 10px;
+	color: white;
 }
+
 .block2_additional_text {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 24px;
@@ -40,34 +50,56 @@ body {
 	padding-bottom: 20px;
 }
 
-.landing-description, .website-description, .shop-description {
-	border: 1px solid #fff;
-	display: inline-block;
-	vertical-align: top;
-	width: 30%;
+.description {
+	height: 166px;
+	border: 1px solid black;
 	padding: 10px;
-	margin: 10px;
 	margin-top: 40px;
 	text-align: justify;
+	overflow: hidden;
+	background-color: white;
 }
 
-.landing-description:hover, .website-description:hover, .shop-description:hover {
-	background: rgba(255, 217, 0, 0.5);
+.website-image, .shop-image, .landing-image {
+	height: 380px;
+	border: 1px solid black;
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: white;
+}
+.landing-image {
+	background-image: url(img/2_block/land.jpg);
+	background-size: 63%;
+}
+.website-image{
+	background-image: url(img/2_block/corp.jpg);
+	background-size: 92%;
+}
+.shop-image {
+	background-image: url(img/2_block/shop.jpg);
+	background-size: 80%;
+}
+
+.all-block2 {
+	display: inline-block;
+	vertical-align: middle;
+	width: 35%;
+	margin: 10px;
+}
+
+.description:hover {
+	/*background: rgba(255, 217, 0, 0.5);*/
+	background: rgb(255, 244, 182);
 	font-size: 16px;
-	transition: 0.3s;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(244, 67, 54, 0.4);*/
+	height: 900px;
+	transition: .7s ease-in-out;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.icon-block {
+	position: absolute;
+	transform: translate(150px, -44px);
 }
 
 
-.icon-block21 {
-	position: absolute;
-	transform: translate(129px, -44px);
-}
-.icon-block22 {
-	position: absolute;
-    transform: translate(132px, -44px);
-}
-.icon-block23 {
-	position: absolute;
-    transform: translate(129px, -44px);
-}
